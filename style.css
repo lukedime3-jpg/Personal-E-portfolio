@@ -257,3 +257,96 @@ footer{
   opacity:1;
   transform:translateY(0);
 }
+
+/* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px){
+
+  /* NAVBAR */
+  nav{
+    padding:15px 20px;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .nav-links{
+    margin-top:10px;
+  }
+
+  .nav-links a{
+    margin:10px;
+    display:inline-block;
+  }
+
+  /* HOME */
+  #home{
+    padding:100px 20px;
+  }
+
+  .home-container{
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+  }
+
+  .home-text h1{
+    font-size:26px;
+  }
+
+  .typing{
+    font-size:16px;
+  }
+
+  .home-image img{
+    width:200px;
+  }
+
+  /* SECTIONS */
+  section{
+    padding:80px 20px;
+  }
+
+  h2{
+    font-size:22px;
+  }
+
+  /* ABOUT */
+  .about-box{
+    padding:20px;
+  }
+
+  /* PROJECTS */
+  .projects{
+    gap:20px;
+  }
+
+  .card{
+    width:100%;
+    max-width:300px;
+  }
+
+  /* SKILLS */
+  .skills{
+    gap:20px;
+  }
+
+  .skill{
+    width:45%;
+  }
+
+  /* GALLERY */
+  .gallery{
+    grid-template-columns:1fr 1fr;
+  }
+
+  /* CONTACT */
+  .contacts{
+    gap:20px;
+  }
+
+}
+
+img{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
